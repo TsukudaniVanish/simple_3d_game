@@ -22,19 +22,19 @@ export const Game = react.memo(() => {
     // game loop
 
     // state which holds game state
-    const [gameMode, setGameMode] = react.useState<GameMode>(GameMode.ModeNormal)
+    const [gameMode, setGameMode] = react.useState(GameMode.ModeNormal)
 
     // hold canvas
-    const canvasRef = react.useRef<HTMLCanvasElement>(HTMLCanvasElement.prototype)
+    const canvasRef = react.useRef(HTMLCanvasElement.prototype)
 
     // hold mouse position
-    const mousePositionXRef = react.useRef<number>(0)
+    const mousePositionXRef = react.useRef(0)
 
     // hold game mode
-    const gameModeRef = react.useRef<GameMode>(GameMode.ModeInit)
+    const gameModeRef = react.useRef(GameMode.ModeInit)
 
     // hold play time 
-    const playTimeRef = react.useRef<number>(0)
+    const playTimeRef = react.useRef(0)
 
     gameModeRef.current = gameMode
 
