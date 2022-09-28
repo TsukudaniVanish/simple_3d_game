@@ -1,5 +1,4 @@
-import { gameConfig, react, Three, React } from "../deps.ts";
-
+import { dodgeBoxesConfig as gameConfig, react, Three, React } from "../deps.ts";
 
 
 type Box = {

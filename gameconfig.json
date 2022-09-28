@@ -1,16 +1,23 @@
 {
-    "display_width":960,
-    "display_hight":540,
-    "field_width":1200,
-    "box_half_size":100,
-    "box_initial_position_z": 1200,
-    "box_movement":0.1,
-    "box_spawn_rate":0.006,
-    "camera_fov":90,
-    "camera_pos_y":750,
-    "camera_pos_z":-200,
-    "player_half_size":35,
-    "player_position_y":625,
-    "camera_lock_at_z":1000,
-    "hit_box_margin":15
+    "DodgeBoxes":{
+        "display_width":960,
+        "display_hight":540,
+        "field_width":1200,
+        "box_half_size":100,
+        "box_initial_position_z": 1200,
+        "box_movement":0.1,
+        "box_spawn_rate":0.006,
+        "camera_fov":90,
+        "camera_pos_y":750,
+        "camera_pos_z":-200,
+        "player_half_size":35,
+        "player_position_y":625,
+        "camera_lock_at_z":1000,
+        "hit_box_margin":15
+    },
+    "Explorer":{
+        "display_width":960,
+        "display_hight":540,
+        "player_fov":90
+    }
 }

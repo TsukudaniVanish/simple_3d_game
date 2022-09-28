@@ -13,4 +13,6 @@ import * as threejs4Deno from "https://deno.land/x/threejs_4_deno@v121/src/Three
 export {threejs4Deno as Three}
 
 import gameconfigJson from "./gameconfig.json" assert { type: 'json'}
-export {gameconfigJson as gameConfig}
+const dodgeBoxesConfig = gameconfigJson.DodgeBoxes
+const explorerConfig = gameconfigJson.Explorer
+export {dodgeBoxesConfig, explorerConfig}

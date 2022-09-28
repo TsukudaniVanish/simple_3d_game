@@ -1,5 +1,6 @@
-import {react, React, gameConfig} from './deps.ts';
-import { Game } from './src/Game.tsx';
+import {react, React, dodgeBoxesConfig as gameConfig} from './deps.ts';
+import { Game as DodgeBoxes } from './src/Game.tsx';
+import {Game as Explorer} from './src/Explorer.tsx';
 
 enum GameSelect {
   None,
@@ -14,12 +15,12 @@ function App() {
   case GameSelect.DodgeBoxes:
     return (
       <>
-        <Game></Game>
+        <DodgeBoxes></DodgeBoxes>
       </>
     );
   case GameSelect.Explorer:
     return (
-      <></>
+      <Explorer/>
     );
   default:
     return (
